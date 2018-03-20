@@ -37,7 +37,8 @@ public class DataInitilizr implements ApplicationListener<ContextRefreshedEvent>
 
 		User user2 = userRepository.findByName("francivaldo");
 
-		System.out.println(user2.getName());
+		System.out.println(user2.getName() + user2.getEmail() +  user2.getId());
+
 
 	}
 	
